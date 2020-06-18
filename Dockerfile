@@ -5,6 +5,6 @@ ENV IBM_CLOUDDEV_VERSION=0.1
 
 
 WORKDIR /usr/share/nginx/html
-RUN curl -LO "www.google.com"
+RUN ["/bin/bash", "-c", "curl -LO www.google.com"]
 
 EXPOSE 8080
