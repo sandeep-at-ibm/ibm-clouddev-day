@@ -1,3 +1,6 @@
+arch: s390x
+os:   linux
+
 sudo: required
 services:
   - docker
